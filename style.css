@@ -46,7 +46,8 @@ input:focus {
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    width: auto;
+    width: 180px;
+    border-color: rgb(180, 180, 180);
 }
 
 .nickName {
@@ -55,6 +56,7 @@ input:focus {
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    border-color: rgb(180, 180, 180);
     width: 180px;
 }
 
@@ -64,19 +66,22 @@ input:focus {
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    border-color: rgb(180, 180, 180);
     width: 180px;
 }
 
 .openChat {
     margin-top: 70px;
+    width: 160px;
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    border-color: rgb(180, 180, 180);
 }
 
 .kakao {
     width: 20px;
-    margin-left: 50px;
+    margin-left: 60px;
     border-radius: 5px;
 }
 
