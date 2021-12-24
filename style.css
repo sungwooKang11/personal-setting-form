@@ -25,11 +25,28 @@ input:focus {
     font-size: 20px;
 }
 
-.name {
-    margin-left: 100px;
+.profile {
+    width: 100px;
+    height: 30px;
+    background: #489CCB;
+    color: white;
+    margin-left: 110px;
+
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    border-bottom: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.name {
+    margin-left: 100px;
+    margin-top: 40px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: auto;
 }
 
 .nickName {
@@ -38,6 +55,7 @@ input:focus {
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    width: 180px;
 }
 
 .email {
@@ -46,6 +64,7 @@ input:focus {
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    width: 180px;
 }
 
 .openChat {
@@ -57,7 +76,8 @@ input:focus {
 
 .kakao {
     width: 20px;
-    margin-left: 40px;
+    margin-left: 50px;
+    border-radius: 5px;
 }
 
 .saveBtn {
@@ -66,7 +86,7 @@ input:focus {
     background: #489CCB;
     color: white;
     font-size: 15px;
-    border-radius: 10px;
+    border-radius: 15px;
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -76,4 +96,5 @@ input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
