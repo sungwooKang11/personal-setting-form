@@ -48,16 +48,6 @@ input:focus {
     border-color: rgb(180, 180, 180);
 }
 
-.nickName {
-    margin-left: 100px;
-    margin-top: 70px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-color: rgb(180, 180, 180);
-    width: 180px;
-}
-
 .email {
     margin-left: 80px;
     margin-top: 70px;
